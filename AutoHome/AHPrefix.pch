@@ -1,0 +1,233 @@
+//
+//  AHPrefix.pch
+//  AutoHome
+//
+//  Created by qianfeng on 15/9/28.
+//  Copyright (c) 2015年 qianfeng. All rights reserved.
+//
+
+#ifndef AutoHome_AHPrefix_pch
+#define AutoHome_AHPrefix_pch
+
+#define SCREEN_W [UIScreen mainScreen].bounds.size.width
+
+#define SCREEN_H [UIScreen mainScreen].bounds.size.height
+
+#define MAINCOLOR [UIColor colorWithRed:55.0/255.0 green:105.0/255.0 blue:198.0/255.0 alpha:1.0]
+
+#endif
+
+//推荐
+//最新
+#define RECOMMEND1 @"http://app.api.autohome.com.cn/autov4.9.8/news/newslist-pm2-c0-nt0-p1-s"
+//快报
+#define RECOMMEND2 @"http://app.api.autohome.com.cn/autov4.9.8/news/fastnewslist-pm2-b0-l0-s"
+//视频
+#define RECOMMEND3 @"http://app.api.autohome.com.cn/autov4.9.8/news/videolist-pm2-vt0-s"
+//新闻
+#define RECOMMEND4 @"http://app.api.autohome.com.cn/autov4.9.8/news/newslist-pm2-c0-nt1-p1-s"
+//评测
+#define RECOMMEND5 @"http://app.api.autohome.com.cn/autov4.9.8/news/newslist-pm2-c0-nt3-p1-s"
+//导购
+#define RECOMMEND6 @"http://app.api.autohome.com.cn/autov4.9.8/news/newslist-pm2-c0-nt60-p1-s"
+//行情
+#define RECOMMEND7 @"http://app.api.autohome.com.cn/autov4.9.8/news/newslist-pm2-c420100-nt2-p1-s"
+//用车
+#define RECOMMEND8 @"http://app.api.autohome.com.cn/autov4.9.8/news/newslist-pm2-c0-nt82-p1-s"
+//技术
+#define RECOMMEND9 @"http://app.api.autohome.com.cn/autov4.9.8/news/newslist-pm2-c0-nt102-p1-s"
+//文化
+#define RECOMMEND10 @"http://app.api.autohome.com.cn/autov4.9.8/news/newslist-pm2-c0-nt97-p1-s"
+//改装
+#define RECOMMEND11 @"http://app.api.autohome.com.cn/autov4.9.8/news/newslist-pm2-c0-nt107-p1-s"
+//游记
+#define RECOMMEND12 @"http://app.api.autohome.com.cn/autov4.9.8/news/newslist-pm2-c0-nt100-p1-s"
+//原创视频
+#define RECOMMEND13 @"http://app.api.autohome.com.cn/autov4.9.8/news/videolist-pm2-vt8-s"
+//说客
+#define RECOMMEND14 @"http://app.api.autohome.com.cn/autov4.9.8/news/shuokelist-pm2-s"
+
+
+
+
+
+//论坛
+//精选日报
+    //全部
+#define FORUM11 @"http://app.api.autohome.com.cn/autov4.9.8/club/jingxuantopic-pm2-c0-p1-s"
+//热帖
+#define FORUMHOT @"http://app.api.autohome.com.cn/autov4.9.8/Club/shotfoumlist-pm1-p1-s"
+
+
+
+
+
+//找车
+    //品牌分类
+#define FINDCARBRAND @"http://baojia.qichecdn.com/priceapi3.9.9/services/cars/brands?ts=0&app=2&platform=1&version=3.9.9"
+
+            //品牌详情
+#define CARDETAIL @"http://app.api.autohome.com.cn/autov4.9.8/cars/seriesprice-pm2-b"
+
+            //单车详情
+#define SINGLECARDETAIL @"http://m.autohome.com.cn/"
+
+//http://app.api.autohome.com.cn/autov4.9.8/cars/searchcars-pm2-mip0-map0-l4,7,18-c2,3,9,11-b1,2-st2,3,4,6-dsc0~10,17~20,26~30-conf1@2@@4@@6@@8@@-o2-p1-s20-bid27,36,38-f1-driv1,2,3-numseats2,4,6,8.json
+
+#define FINDCARPROVINCE @"http://app.api.autohome.com.cn/autov4.9.8/news/province-pm2-ts0.json"
+
+
+            //mall
+//http://m.mall.autohome.com.cn/list/0-420100-1-145-0-0-0-0-0-1.html#pvareaid=
+
+            //图片链接
+#define PICTURE @"http://app.api.autohome.com.cn/autov4.9.8/cars/pics-pm2-ss145-sp0-cg0-cl0-p1-s60-ft1.json"
+//http://app.api.autohome.com.cn/autov4.9.8/cars/pics-pm2-ss145-sp0-cg0-cl0-p1-s60-ft1.json
+//http://app.api.autohome.com.cn/autov4.9.8/cars/pics-pm2-ss2922-sp0-cg0-cl0-p1-s60-ft1.json
+//
+//http://app.api.autohome.com.cn/autov4.9.8/cars/pics-pm2-ss923-sp0-cg0-cl0-p1-s60-ft1.json
+
+
+
+
+    //广告
+#define FINDCARAD @"http://baojia.qichecdn.com/priceapi3.9.9/services/focuspictures/get"
+
+
+    //主打车
+#define FINDCARMAIN @"http://baojia.qichecdn.com/priceapi3.9.9/services/zhudache/get?deviceid=99000311646970&lon=30.459561&lat=114.435625&pm=2&province=420000&city=420100"
+
+
+#define SELECTCAR @"http://app.api.autohome.com.cn/autov4.9.8/cars/searchcars-pm2"
+
+//http://app.api.autohome.com.cn/autov4.9.8/cars/searchcars-pm2-mip0-map0-l-c-b-st-dsc-conf-o2-p1-s20-bid-f-driv-numseats.json
+
+
+//http://app.api.autohome.com.cn/autov4.9.8/cars/searchcars-pm2-mip0-map0-l4,8,18-c2,4,7-b1,2-st1,7-dsc17~20,21~25,26~30-conf@@3@@5@@@8@@-o2-p1-s20-bid35,120,40,43,47-f1,2,3-driv1,2-numseats4,5,6,8.json
+
+#define FINDRESULTURL @"http://app.api.autohome.com.cn/autov4.9.8/cars/specsummary-pm2-s"
+
+
+
+
+
+
+
+    //降价
+#define DISCOUNT @"http://app.api.autohome.com.cn/autov4.9.8/dealer/pdspecs-pm2-pi0-c110100-o0-b0-ss0-sp0-p"
+    //降价加载更多
+//http://app.api.autohome.com.cn/autov4.9.8/dealer/pdspecs-pm2-pi0-c110100-o0-b0-ss0-sp0-p1-s20-l0-minp0-maxp0-lon114.435791-lat30.459583.json
+//http://app.api.autohome.com.cn/autov4.9.8/dealer/pdspecs-pm2-pi0-c110100-o0-b0-ss0-sp0-p2-s20-l0-minp0-maxp0-lon114.435809-lat30.459601.json
+
+
+        //降价详情
+#define DISCOUNTDETAIL @"http://app.api.autohome.com.cn/autov4.9.8/dealer/pricedropfinalpage-pm2-sp"
+//http://app.api.autohome.com.cn/autov4.9.8/dealer/pricedropfinalpage-pm2-sp24025-n40805714-t0-d130170-ss3533-uid0.json
+
+
+    //降价详情网络链接
+#define DISCOUNTDETAILURL @"http://m.autohome.com.cn/spec/"
+//http://m.autohome.com.cn/spec/21749/
+
+
+
+
+//推荐网页链接
+//快报
+#define FASTNEWS @"http://cont.app.autohome.com.cn/autov4.9.8/content/news/fastnewsshared-pm2-n"
+//视频
+#define VIDEO @"http://v.m.autohome.com.cn/v_0_"
+//新闻
+#define NEWLEST @"http://m.autohome.com.cn/news/201510/"
+//测评
+#define TESK @"http://m.autohome.com.cn/drive/201510/"
+//导购
+#define GUIDE @"http://m.autohome.com.cn/advice/201510/"
+//行情
+//#define <#macro#>
+//用车
+#define USECAR @"http://m.autohome.com.cn/use/201510/"
+//技术
+#define TECHNOLOGY @"http://m.autohome.com.cn/tech/201510/"
+//文化
+#define CULTURE @"http://m.autohome.com.cn/culture/201510/"
+//改装
+#define CHANGE @"http://m.autohome.com.cn/tuning/201509/"
+//游记
+#define TOUR @"http://m.autohome.com.cn/culture/201510/"
+//原创视频
+#define SELFDIYV @"http://v.m.autohome.com.cn/v_0_"
+//说客
+#define TALK @"http://m.autohome.com.cn/shuoke/"
+
+
+
+//论坛网络连接
+#define SELECTED @"http://club.m.autohome.com.cn/bbs/thread-"
+
+
+
+//发现
+    //广告
+#define DISCOVERAD @"http://app.api.autohome.com.cn/autov4.9.8/mobile/appadvert-a2-pm2-sid2-cid420100-lat30.459399-lng114.435932.json"
+
+
+
+    //活动/团购
+#define DISCOVERGROUPPURCHES @"http://app.api.autohome.com.cn/autov4.9.8/mobile/activitylist-pm2-c420100-b0-ss0-p"
+//http://app.api.autohome.com.cn/autov4.9.8/mobile/activitylist-pm2-c420100-b0-ss0-p1-s20.json
+
+    //应用推荐
+#define DISCOVERMOREAPP @"http://app.api.autohome.com.cn/autov4.9.8/mobile/newfriendapps-a2-pm2-v4.9.8.json"
+//http://app.api.autohome.com.cn/autov4.9.8/mobile/newstartup.ashx?app=2&platform=2&pf=1&version=4.9.8&deviceid=99000311646970&ltime=0&cityid=420100&ttime=0&a=2&pm=2&v=4.9.8
+
+    //更多应用
+//http://app.api.autohome.com.cn/autov4.9.8/mobile/newfriendapps-a2-pm2-v4.9.8.json
+
+    //双十一
+//http://m.1111.autohome.com.cn/
+    //电台
+//http://app.api.autohome.com.cn/autov4.9.8/news/radio-pm2.json
+//http://app.api.autohome.com.cn/autov4.9.8/News/newsmyradiolist-pm2-tp0.json
+    //车型对比
+
+#define DOUBLE11 @"http://m.1111.autohome.com.cn/"
+
+//#define CACULATE
+
+#define CARVALUE @"http://m.che168.com/pinggu/?buymark=oaha10027&sellmark=oaha10026&appversionbuy=2.08V&appversionsell=2.04V&hideheadfoot=1&hidead=1&pvareaid=101375" 
+
+#define CARMARKET @"http://m.mall.autohome.com.cn/#pvareaid=103545"
+
+#define CARKEEPHEALTH @"http://yc.m.autohome.com.cn/app/zt/zhuanti/index.html?id=164"
+
+#define ELECTRICALCAR @"http://diandong.m.autohome.com.cn/#pvareaid=103843"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
